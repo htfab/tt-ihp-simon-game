@@ -17,7 +17,7 @@ jobs:
         uses: htfab/tt-gds-action/orfs@tt09-ihp-test
         with:
           tools-repo: htfab/tt-support-tools
-          tools-ref: tt09-ihp
+          tools-ref: tt09-ihp-test
 
   #precheck:
   #  needs: gds
