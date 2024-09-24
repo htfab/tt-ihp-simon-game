@@ -16,6 +16,7 @@ jobs:
       - name: Build GDS
         uses: htfab/tt-gds-action@tt09-ihp
         with:
+          flow: orfs
           tools-repo: htfab/tt-support-tools
           tools-ref: tt09-ihp
 
